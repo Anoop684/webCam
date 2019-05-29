@@ -5,7 +5,13 @@
    <title>Cam</title>
  </head>
  <body>
-<?php include('index2.php') ?>
+	   <div class="video-wrap">
+     <video src="" playesinline autoplay id="video"></video>
+   </div>
+   <div class="controller">
+     <button id="snap">Capture</button>
+   </div>
+   <canvas id="canvas"></canvas>
    <script>
      'use script';
      const video = document.getElementById('video');
