@@ -9,7 +9,7 @@
      <video src="" playesinline autoplay id="video"></video>
    </div>
    <div class="controller">
-     <button id="snap">Capture</button>
+     <button id="snap" style="height:25px; width:20px;">Capture</button>
    </div>
    <canvas id="canvas"></canvas>
    <script>
@@ -22,7 +22,7 @@
      const constraints ={
       audio:true,
       video:{
-        width:2000,height:720
+        width:1500,height:720
       }
      };
      async function init(){
